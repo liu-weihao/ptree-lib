@@ -1,11 +1,7 @@
 package com.dx.ss.plugins.ptree.model;
 
-import java.io.Serializable;
+public class TreeNode{
 
-public class TreeNode implements Serializable{
-
-	private static final long serialVersionUID = -6907768597537702786L;
-	
 	private Integer id;
 
 	private String name;

@@ -5,8 +5,6 @@ public class TreeNode{
 	private Integer id;
 
 	private String name;
-	
-	private String flag;
 
     private Integer nlevel;
 
@@ -28,14 +26,6 @@ public class TreeNode{
 
 	public void setName(String name) {
 		this.name = name;
-	}
-
-	public String getFlag() {
-		return flag;
-	}
-
-	public void setFlag(String flag) {
-		this.flag = flag;
 	}
 
 	public Integer getNlevel() {
